@@ -21,6 +21,24 @@ h2 {
     
 }
 
+.sharp-corners,
+.sharp-corners * { 
+    border-radius: 0;
+}
+
+/* Buttons */
+
+.custom-button { 
+    background-color: #1f7798;
+    border: #177798;
+}
+
+
+.custom-button:hover { 
+    background-color: #1f7798;
+    border: #177798;
+}
+
 /* About section */
 
 #about { 
@@ -49,3 +67,25 @@ h2 {
     min-height: 500px;
     padding: 5% 7%;
 }
+
+#portfolio .card-title { 
+    color: #1F7798; /* mid blue */
+    font-size: 1.2rem;
+
+}
+
+#portfolio .btn-btn-outline-secondary:hover { 
+    background-color: #1F7798; /* mid blue */
+}
+
+#portfolio .card-text { 
+            min-height: 120px;
+}
+
+/* Media query */
+@media screen and (min-width: 1200px) {
+    #portfolio .card-text { 
+        min-height: auto;
+    }
+}
+
